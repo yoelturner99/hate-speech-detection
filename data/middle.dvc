@@ -1,0 +1,6 @@
+outs:
+- md5: 5371f5959c715fc81c88cd8cee72f3e8.dir
+  size: 33986533
+  nfiles: 15
+  hash: md5
+  path: middle
