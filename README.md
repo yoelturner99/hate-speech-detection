@@ -109,7 +109,7 @@ For the versioning and hosting of the code, data and models we combined:
 
 - Github for code versioning
 - DVC for data and model versioning
-- Docker with a FastAPI app for deployment
+- Docker with a FastAPI app for deployment (yoelturner99/hate-speech-app:latest)
 
 ## Contributors
 
