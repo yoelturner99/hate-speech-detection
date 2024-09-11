@@ -21,6 +21,17 @@ After preprocessing the data we come up with a total of **267841 of samples (50.
 
 CamemBERT is a state-of-the-art, large-scale language model specifically designed for French. It is based on Facebook's RoBERTa architecture, which is an optimized and enhanced version of the BERT (Bidirectional Encoder Representations from Transformers) model. We will leverages transfer learning through finetuning to do binary classification.
 
+## Performance on test data (20% of dataset)
+
+|              | Non-hateful | Hateful    |
+|--------------|-------------|------------|
+| Non-hateful  | 12182       | 980        |
+| Hateful      | 2686        | 10937      |
+
+|   F1 Score   |   Recall    | Precision  | Accuracy |
+|--------------|-------------|------------|----------|
+|    86.27 %   |   86.31 %   |  86.94 %   | 86.31 %  |
+
 ## Venv Setup (python 3.10)
 
 ### With PIP
@@ -36,7 +47,7 @@ pip install -r ./requirements.txt
 dvc pull
 ```
 
-### With CONDA
+### With Conda
 
 ```bash
 # Create conda env and install packages
