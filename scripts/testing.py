@@ -162,5 +162,5 @@ if __name__ == '__main__':
     print(f'Accuracy  : {100*accuracy:.2f} %')
     print(f"\nConfusion Matrix :")
 
-    cm_df = pd.DataFrame(cm, index=labels, columns=['Non-hateful', 'Hateful'])
+    cm_df = pd.DataFrame(cm, index=['Non-hateful', 'Hateful'], columns=['Non-hateful', 'Hateful'])
     cm_df
