@@ -4,4 +4,4 @@
 .env
 .venv
 logs/*.log
-
+ressources/
